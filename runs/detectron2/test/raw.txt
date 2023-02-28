@@ -1,0 +1,113 @@
+-----------------------------------------------------------------------------------------------------------------------
+day_on_day
+-----------------------------------------------------------------------------------------------------------------------
+[02/23 10:35:49 d2.evaluation.evaluator]: Total inference pure compute time: 0:00:28 (0.055645 s / iter per device, on 1 devices)
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.178
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.334
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.166
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.082
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.248
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.401
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.118
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.210
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.227
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.130
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.310
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.430
+[02/23 10:35:49 d2.evaluation.coco_evaluation]: Evaluation results for bbox:
+|   AP   |  AP50  |  AP75  |  APs  |  APm   |  APl   |
+|:------:|:------:|:------:|:-----:|:------:|:------:|
+| 17.756 | 33.378 | 16.614 | 8.212 | 24.830 | 40.058 |
+[02/23 10:35:49 d2.evaluation.coco_evaluation]: Per-category bbox AP:
+| category   | AP     | category   | AP    | category   | AP     |
+|:-----------|:-------|:-----------|:------|:-----------|:-------|
+| cars       | nan    | bike       | 9.963 | bus        | 21.494 |
+| car        | 31.656 | motor      | 9.994 | person     | 15.674 |
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+night_on_day
+-----------------------------------------------------------------------------------------------------------------------
+ Total inference pure compute time: 0:00:28 (0.055094 s / iter per device, on 1 devices)
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.086
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.158
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.074
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.031
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.131
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.222
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.060
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.111
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.118
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.046
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.170
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.249
+[02/23 10:26:30 d2.evaluation.coco_evaluation]: Evaluation results for bbox:
+|  AP   |  AP50  |  AP75  |  APs  |  APm   |  APl   |
+|:-----:|:------:|:------:|:-----:|:------:|:------:|
+| 8.556 | 15.759 | 7.432  | 3.056 | 13.146 | 22.209 |
+[02/23 10:26:30 d2.evaluation.coco_evaluation]: Per-category bbox AP:
+| category   | AP     | category   | AP    | category   | AP    |
+|:-----------|:-------|:-----------|:------|:-----------|:------|
+| cars       | nan    | bike       | 4.802 | bus        | 6.941 |
+| car        | 25.168 | motor      | 5.869 | person     | 0.000 |
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+day_on_night
+-----------------------------------------------------------------------------------------------------------------------
+[02/23 10:41:53 d2.evaluation.evaluator]: Total inference pure compute time: 0:00:27 (0.056540 s / iter per device, on 1 devices)
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.157
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.305
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.156
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.056
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.225
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.253
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.138
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.242
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.252
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.131
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.324
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.299
+[02/23 10:41:53 d2.evaluation.coco_evaluation]: Evaluation results for bbox:
+|   AP   |  AP50  |  AP75  |  APs  |  APm   |  APl   |
+|:------:|:------:|:------:|:-----:|:------:|:------:|
+| 15.683 | 30.512 | 15.636 | 5.611 | 22.498 | 25.257 |
+[02/23 10:41:53 d2.evaluation.coco_evaluation]: Per-category bbox AP:
+| category   | AP     | category   | AP     | category   | AP     |
+|:-----------|:-------|:-----------|:-------|:-----------|:-------|
+| bdd100k    | nan    | bike       | 11.045 | bus        | 19.900 |
+| car        | 28.368 | motor      | 3.418  | person     | nan    |
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+night_on_night
+-----------------------------------------------------------------------------------------------------------------------
+[02/23 10:46:14 d2.evaluation.evaluator]: Total inference pure compute time: 0:00:27 (0.055737 s / iter per device, on 1 devices)
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.221
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.401
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.211
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.097
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.296
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.283
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.151
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.269
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.281
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.147
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.353
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.312
+[02/23 10:46:14 d2.evaluation.coco_evaluation]: Evaluation results for bbox:
+|   AP   |  AP50  |  AP75  |  APs  |  APm   |  APl   |
+|:------:|:------:|:------:|:-----:|:------:|:------:|
+| 22.101 | 40.137 | 21.084 | 9.671 | 29.624 | 28.305 |
+[02/23 10:46:14 d2.evaluation.coco_evaluation]: Per-category bbox AP:
+| category   | AP     | category   | AP     | category   | AP     |
+|:-----------|:-------|:-----------|:-------|:-----------|:-------|
+| bdd100k    | nan    | bike       | 9.451  | bus        | 26.988 |
+| car        | 37.707 | motor      | 14.260 | person     | nan    |

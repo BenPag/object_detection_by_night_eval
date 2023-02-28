@@ -1,0 +1,10 @@
+names:
+- bike
+- bus
+- car
+- motor
+- person
+nc: 5
+test: ../test/images
+train: data/yolo/day_and_night/train/images
+val: data/yolo/day_and_night/valid/images

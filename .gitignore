@@ -1,0 +1,13 @@
+.idea
+.vscode
+venv
+data/detectron2
+data/yolo
+runs/detectron2/train/**/eval
+
+yolov7_training.pt
+*.pt
+*.pth
+events.out.*
+last_checkpoint
+!instances_predictions.pth
